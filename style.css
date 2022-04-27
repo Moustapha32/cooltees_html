@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background: #8eb7b8eb;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+}
+img.logo {
+    width: 60px;
+    margin-left: 30px;
+}
+img.icon {
+    width: 15px;
+    margin: 10px;
+}
+
+.background-img {
+    width: 100%;
+    position: relative;
+}
+
+h1#heading1 {
+    position: absolute;
+    top: 20vw;
+    font-size: 4vw;
+    left: 15vw;
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+
+ul.container {
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li.menus {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 350px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.cards {
+    background: #EBEBEB;
+}
+img.card-img {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px;
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    padding: 30px 0;
+}
+
+button.addtocart {
+    padding: 10px 20px;
+    background-color: #128f12;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+.header {
+    position: inherit;
+}
+h1#heading1 {
+    position: absolute;
+    top: 34vw;
+}
+    
+}

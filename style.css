@@ -38,6 +38,19 @@ h1#heading1 {
     border-bottom: 3px solid black;
 }
 
+h1#heading2 {
+    padding: 10px;
+}
+
+h1#heading4 {
+    text-align: center;
+}
+
+h4#explaination {
+    font-size: medium;
+    font-weight: 100;
+}
+
 
 ul.container {
     position: relative;
@@ -61,6 +74,7 @@ img.card-img {
     margin: 0 auto;
     display: flex;
     padding: 50px;
+    height: 200px;
 }
 .names {
     display: flex;
@@ -78,6 +92,55 @@ button.addtocart {
     border-radius: 10px;
     font-size: 15px;
 }
+h1.Heading2 {
+    width: 94%;
+    margin: 20px auto;
+}
+
+
+/************* Signup *****************/
+section.sign_up {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+}
+.sign {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    width: 600px;
+    height: 883px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+#signup_p {
+    color: grey;
+    margin-bottom: 10px;
+}
+input#signupbar {
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    width: 80%;
+    margin: 10px 0;
+}
+button.signup-button {
+    width: 83%;
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+}
+a#alreadyamember {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
 @media screen and (max-width: 600px) {
 .header {
     position: inherit;
@@ -86,5 +149,11 @@ h1#heading1 {
     position: absolute;
     top: 34vw;
 }
-    
+.store-logo {
+    text-align: center;
+}
+.sign {
+
+    width: 80%;
+}
 }

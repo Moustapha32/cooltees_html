@@ -96,8 +96,9 @@ h1.Heading2 {
     width: 94%;
     margin: 20px auto;
 }
-
-
+img#footer-logo {
+    width: 150px;
+}
 /************* Signup *****************/
 section.sign_up {
     position: absolute;

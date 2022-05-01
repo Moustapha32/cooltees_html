@@ -226,7 +226,7 @@ main .total .next-step button.next {
 
 .thanks {
     text-align: center;
-   margin: 5rem 0rem;
+    margin-bottom: 30px;
     font-size: xx-large;
     font-weight: bolder;
     text-decoration: solid;
